@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.box{
+  /* border: 15px solid green; */
+  padding: 50px;
+  margin: 20px;
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+}
+.counter{
+  border:5px solid black;
+  background-color: blanchedalmond;
+  padding: 40px;
+  font-size:2rem;
+}
+.cen{
+  display: flex;
+  justify-content: center;
+}
+#slider{
+  width:500px;
+}
+#first{
+  border: 7px solid red;
+}

@@ -52,16 +52,18 @@ function Speedplate()
 
     return (
         <>
-        <h1>Reading</h1>
-        <span id="fifth">0</span>
-        <span id="fourth">0</span>
-        <span id="third">0</span>
-        <span id="second">0</span>
-        <span id="first">0</span>
+        <h1 className='cen' >Reading</h1>
+        <div class="box" >
+        <span className="counter" id="fifth">0</span>
+        <span className="counter" id="fourth">0</span>
+        <span className="counter" id="third">0</span>
+        <span className="counter" id="second">0</span>
+        <span className="counter" id="first">0</span>
+        </div>
         <br />
-        <h1>Speed</h1>
-       <input type="range" min="0" max="100" onChange={handlechange} />
-       <h3 id="rangeValue">0</h3>
+        <h1 className='cen'>Speed</h1>
+       <input id="slider" className='cen mx-auto' type="range" min="0" max="250"  onChange={handlechange} />
+       <h3 className='cen' id="rangeValue">0</h3>
   </>
     );
 }
