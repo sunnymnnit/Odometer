@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/odometer/static/css/main.b08c4367.css",
+    "main.js": "/odometer/static/js/main.67e91bc8.js",
+    "static/js/787.5fb50413.chunk.js": "/odometer/static/js/787.5fb50413.chunk.js",
+    "index.html": "/odometer/index.html",
+    "main.b08c4367.css.map": "/odometer/static/css/main.b08c4367.css.map",
+    "main.67e91bc8.js.map": "/odometer/static/js/main.67e91bc8.js.map",
+    "787.5fb50413.chunk.js.map": "/odometer/static/js/787.5fb50413.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b08c4367.css",
+    "static/js/main.67e91bc8.js"
+  ]
+}
